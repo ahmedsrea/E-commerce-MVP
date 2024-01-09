@@ -5,7 +5,7 @@ import UserLinksMenu from "./UserLinksMenu";
 
 export default function Header() {
   return (
-    <header className="py-5 border-b border-[#E0E0E0]">
+    <header className="py-5 border-b border-[#E0E0E0] bg-white">
       <Container>
         <div className="flex items-center justify-between">
           <Logo />
