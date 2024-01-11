@@ -22,7 +22,7 @@ export default function DealsAndOffers() {
   ];
   return (
     <section className="mt-5 border border-[#E0E0E0] rounded-md flex flex-row overflow-hidden bg-white h-[240px]">
-      <div className="w-[280px] border-r border-[#E0E0E0] p-5">
+      <div className="min-w-[280px] border-r border-[#E0E0E0] p-5">
         <div>
           <h2 className="text-[#1C1C1C] text-xl font-semibold">
             Deals and offers
