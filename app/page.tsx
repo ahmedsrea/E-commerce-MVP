@@ -1,4 +1,5 @@
 import Container from "@/components/Container";
+import DealsAndOffers from "@/components/DealsAndOffers";
 import Group1 from "@/components/Group1";
 import Group2 from "@/components/Group2";
 import Header from "@/components/header/Header";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <Container>
         <MainSection />
+        <DealsAndOffers />
         <Group1 />
         <Group2 />
       </Container>
