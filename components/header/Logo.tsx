@@ -8,6 +8,7 @@ export default function Logo() {
       height="50"
       width="150"
       src="/images/logo.png"
+      priority
     />
   );
 }
